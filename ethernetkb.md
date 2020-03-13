@@ -1,16 +1,16 @@
 ### GENERAL
 
-#### 40GE handoff
-The maximum port size that we currently support is 10GE. We are working on future support for 100GE ports.
+40GE handoff
+> The maximum port size that we currently support is 10GE. We are working on future support for 100GE ports.
 
-#### Maximum L2 MTU	
-Our standard GDE service supports jumbo frames of 9000B. We can support up to 9190B frame sizes upon customer request.
+Maximum L2 MTU	
+> Our standard GDE service supports jumbo frames of 9000B. We can support up to 9190B frame sizes upon customer request.
 
-#### Rate limit on Multicast traffic for EPL services
-We do not implement any storm control options for our EPL service; hence, multicast frames will fully pass through our network.
+Rate limit on Multicast traffic for EPL services
+> We do not implement any storm control options for our EPL service; hence, multicast frames will fully pass through our network.
 
-#### Protection Mechanisms	
-We use a combination of LAG and ring (ERP and/or MST-AG) protection mechanisms to achieve fast switching times of ~50ms + propagation delay. Switching occurs when an active link has any of the following:
+Protection Mechanisms	
+> We use a combination of LAG and ring (ERP and/or MST-AG) protection mechanisms to achieve fast switching times of ~50ms + propagation delay. Switching occurs when an active link has any of the following:
 * Alarms (LOS, LOF, LOP, AIS, RDI)
 * SF due to BER of 10e-6
 * Loss of 3x 802.1ag/ Y.1731 CFM frames (sent every 3.3ms)
