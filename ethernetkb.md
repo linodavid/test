@@ -25,6 +25,7 @@ We use a combination of LAG and ring (ERP and/or MST-AG) protection mechanisms t
 As per the LOLA latency, Least measured RTD we can offer for this request is 49.59ms.
 * Measured RTD = 48.88ms TIC + GAIL ( IM6 <> SVW ) + 0.71ms Starhub ( SVW <> SGX ).
 * SLA RTD = 55.00ms TIC + GAIL ( IM6 <> SVW ) + 1.00ms Starhub (SVW <> SGX)
+<br><br>
 
 ### MANAGED ETHERNET
 Placeholder for general questions on Managed Ethernet.
@@ -37,6 +38,7 @@ No, the end-user/ customer won't be able to communicate with our NIDs since they
 
 #### CFM level for service end to end monitoring
 Per MEF recommendations, customers/ subscribers can use CFM MD Level 6 or 7 for end-to-end service monitoring.
+<br><br>
 
 ### SECURITY
 Placeholder for general questions on security for our Ethernet services.
